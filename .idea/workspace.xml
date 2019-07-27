@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0cb9db0e-6fe8-4e36-8145-7b88c1c2f01a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/RxKeyboard.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/xcode.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.swiftlint.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cartfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cartfile.resolved" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RxKeyboard.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RxKeyboard.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RxKeyboard.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RxKeyboard.xcodeproj/project.xcworkspace/xcuserdata/jankase.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RxKeyboard.xcodeproj/xcuserdata/jankase.xcuserdatad/xcschemes/RxKeyboard.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RxKeyboard.xcodeproj/xcuserdata/jankase.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RxKeyboard/Classes/KeyboardInfo.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RxKeyboard/Classes/KeyboardInfoError.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RxKeyboard/Classes/KeyboardInfoImpl.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RxKeyboard/Classes/KeyboardObserver+Rx.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RxKeyboard/Classes/KeyboardObserver.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RxKeyboard/Classes/KeyboardObserverAssembly.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RxKeyboard/Classes/KeyboardObserverImpl.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RxKeyboard/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RxKeyboard/RxKeyboard.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carthageUpdate.sh" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulator_969FCC72-484A-4810-AE5B-551C7E23D192" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="JQLSearcherProjectManager">
+    <selected>-1</selected>
+    <searchers />
+  </component>
+  <component name="JiraServerManager">
+    <selected>-1</selected>
+    <servers />
+  </component>
+  <component name="ProjectId" id="1OTOEt9UZ1oUQFAIjilegQwpEX5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="OBJC.PRESERVED_TARGET_SELECTION" value="RxKeyboard" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="RxKeyboard" type="AppleRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="RxKeyboard" TARGET_NAME="RxKeyboard" CONFIG_NAME="Debug" SCHEME_NAME="RxKeyboard" IS_LOCATION_SIMULATION_ALLOWED="true" APPLICATION_LANGUAGE="IDELaunchSchemeLanguageUseSystemLanguage" APPLICATION_REGION="" MAKE_ACTIVE="TRUE" SHOULD_DEBUG_EXTENSIONS="false">
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <embedded_app_extension_list />
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0cb9db0e-6fe8-4e36-8145-7b88c1c2f01a" name="Default Changelist" comment="" />
+      <created>1563916765471</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563916765471</updated>
+      <workItem from="1563916768927" duration="125000" />
+      <workItem from="1563916907127" duration="602000" />
+      <workItem from="1563998019525" duration="1792000" />
+      <workItem from="1563999835897" duration="64000" />
+      <workItem from="1563999919714" duration="800000" />
+      <workItem from="1564000741859" duration="8400000" />
+      <workItem from="1564161843958" duration="3682000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
