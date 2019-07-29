@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0cb9db0e-6fe8-4e36-8145-7b88c1c2f01a" name="Default Changelist" comment="" />
+    <list default="true" id="0cb9db0e-6fe8-4e36-8145-7b88c1c2f01a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RxKeyboard/Classes/KeyboardObserver+Rx.swift" beforeDir="false" afterPath="$PROJECT_DIR$/RxKeyboard/Classes/KeyboardObserver+Rx.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RxKeyboard/Classes/KeyboardObserver.swift" beforeDir="false" afterPath="$PROJECT_DIR$/RxKeyboard/Classes/KeyboardObserver.swift" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +99,7 @@
       <workItem from="1564243362178" duration="85000" />
       <workItem from="1564386262849" duration="198000" />
       <workItem from="1564405847880" duration="976000" />
+      <workItem from="1564407447354" duration="1617000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1564240757199</created>
@@ -124,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564406782482</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="public reactive interface">
+      <created>1564407513763</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1564407513763</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,6 +160,7 @@
     <MESSAGE value="shared scheme for carthage" />
     <MESSAGE value="supported version change" />
     <MESSAGE value="added support for invoking without dependency injection" />
-    <option name="LAST_COMMIT_MESSAGE" value="added support for invoking without dependency injection" />
+    <MESSAGE value="public reactive interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="public reactive interface" />
   </component>
 </project>

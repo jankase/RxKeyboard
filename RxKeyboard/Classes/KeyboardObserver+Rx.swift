@@ -10,11 +10,6 @@ import UIKit
 
 public extension Reactive where Base: KeyboardObserver {
   func heightInView(_ aView: UIView) -> Driver<CGFloat> {
-    guard let theBase = base as? KeyboardObserverInternal else {
-      return Driver.just(0)
-    }
-    return theBase.currentKeyboardInfo
-        .map { anEndKeyboardInfo -> CGFloat in try anEndKeyboardInfo?.endFrameInViewCoordinateSystem(aView).height ?? 0 }
-        .asDriver(onErrorJustReturn: 0)
+    return base.rx_heightInView(aView)
   }
 }
