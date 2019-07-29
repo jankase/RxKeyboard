@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0cb9db0e-6fe8-4e36-8145-7b88c1c2f01a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0cb9db0e-6fe8-4e36-8145-7b88c1c2f01a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +92,7 @@
       <workItem from="1563999919714" duration="800000" />
       <workItem from="1564000741859" duration="8400000" />
       <workItem from="1564161843958" duration="3895000" />
+      <workItem from="1564243362178" duration="85000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1564240757199</created>
@@ -102,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564240757199</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="shared scheme for carthage">
+      <created>1564243401076</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1564243401076</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,6 +129,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="shared scheme for carthage" />
+    <option name="LAST_COMMIT_MESSAGE" value="shared scheme for carthage" />
   </component>
 </project>
