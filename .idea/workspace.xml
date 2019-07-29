@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0cb9db0e-6fe8-4e36-8145-7b88c1c2f01a" name="Default Changelist" comment="added support for invoking without dependency injection">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RxKeyboard/Classes/KeyboardObserver.swift" beforeDir="false" afterPath="$PROJECT_DIR$/RxKeyboard/Classes/KeyboardObserver.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RxKeyboard/Classes/KeyboardObserverAssembly.swift" beforeDir="false" afterPath="$PROJECT_DIR$/RxKeyboard/Classes/KeyboardObserverAssembly.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RxKeyboard/Classes/KeyboardObserverImpl.swift" beforeDir="false" afterPath="$PROJECT_DIR$/RxKeyboard/Classes/KeyboardObserverImpl.swift" afterDir="false" />
-    </list>
+    <list default="true" id="0cb9db0e-6fe8-4e36-8145-7b88c1c2f01a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +94,7 @@
       <workItem from="1564161843958" duration="3895000" />
       <workItem from="1564243362178" duration="85000" />
       <workItem from="1564386262849" duration="198000" />
-      <workItem from="1564405847880" duration="926000" />
+      <workItem from="1564405847880" duration="976000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1564240757199</created>
@@ -122,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564386285190</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added support for invoking without dependency injection">
+      <created>1564406782482</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1564406782482</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

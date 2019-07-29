@@ -8,7 +8,7 @@ import RxRelay
 import RxSwift
 import UIKit
 
-extension Reactive where Base: KeyboardObserver {
+public extension Reactive where Base: KeyboardObserver {
   func heightInView(_ aView: UIView) -> Driver<CGFloat> {
     guard let theBase = base as? KeyboardObserverInternal else {
       return Driver.just(0)
