@@ -7,6 +7,8 @@ import Foundation
 import Swinject
 
 public class KeyboardObserverAssembly: Assembly {
+  public init() {}
+
   public func assemble(container aContainer: Container) {
     let theResolver = aContainer.synchronize()
     if theResolver.resolve(NotificationCenter.self) == nil {

@@ -14,5 +14,13 @@ public protocol KeyboardObserver {
 
 internal protocol KeyboardObserverInternal: KeyboardObserver {
   var currentKeyboardInfo: PublishRelay<KeyboardInfo?> { get }
-  var container: Container { get set }
+  var container: Container? { get set }
+}
+
+extension KeyboardObserver {
+  static var `default`: KeyboardObserver {
+    let theResult = KeyboardObserverImpl()
+    theResult.notificationCenter = .default
+    return theResult
+  }
 }

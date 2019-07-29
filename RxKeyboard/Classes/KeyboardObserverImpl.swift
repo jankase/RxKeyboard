@@ -11,10 +11,16 @@ import UIKit
 
 public class KeyboardObserverImpl: KeyboardObserverInternal, ReactiveCompatible {
   private(set) internal var currentKeyboardInfo: PublishRelay<KeyboardInfo?> = .init()
-  internal var container: Container
+  internal var container: Container?
+  internal lazy var notificationCenter: NotificationCenter = {
+    _resolver?.resolve(NotificationCenter.self) ?? .default
+  }()
   private var _disposeBag: DisposeBag = .init()
-  private var _resolver: Resolver {
-    return container.synchronize()
+  private var _resolver: Resolver? {
+    return container?.synchronize()
+  }
+
+  init() {
   }
 
   init(container aContainer: Container) {
@@ -23,16 +29,13 @@ public class KeyboardObserverImpl: KeyboardObserverInternal, ReactiveCompatible 
 
   public func startObserving() {
     _resetOldObservers()
-    guard let theNotificationCenter = _resolver.resolve(NotificationCenter.self) else {
-      return
-    }
     [
       UIResponder.keyboardWillShowNotification,
       UIResponder.keyboardDidChangeFrameNotification,
       UIResponder.keyboardDidHideNotification
-    ].forEach { aNotificationName in
-      theNotificationCenter.rx
-          .notification(aNotificationName)
+    ].forEach {
+      notificationCenter.rx
+          .notification($0)
           .map { KeyboardInfoImpl(keyboardNotification: $0) }
           .observeOn(MainScheduler.asyncInstance)
           .bind(to: currentKeyboardInfo)
